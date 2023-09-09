@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Descrizione dell'opera Cristo in Pietà di Pietro Vannucci detto il Perugino</title>
+				<respStmt>
+					<resp>Codifica</resp>
+					<name xml:id="RBDV">Rachele Borotto Dalla Vecchia</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher></publisher>
+				<pubPlace> Università di Bologna</pubPlace>
+				<date>2023</date>
+				<availability>
+					<p>Questa risorsa è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title>Descrizione dell'opera Cristo in Pietà di Pietro Vannucci detto il Perugino</title>
+					<author>Galleria Nazionale dell'Umbria</author>
+					<publisher>Sito web Galleria Nazionale dell'Umbria</publisher>
+					<pubPlace>Perugia</pubPlace>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Questa immagine del corpo di Cristo, con la testa delicatamente reclinata e i palmi delle mani stimmatizzate offerte alla venerazione dello spettatore, era la cimasa della grande pala d'altare dei Decemviri della cappella dei Priori in questo Palazzo. Dal punto di vista strutturale, la pala si colloca nella tradizione veneziana e di area adriatica di polittici con piccola tavola quadrata isolata a coronamento. Forse per i tempi estremamente dilatati tra progettazione e completamento e per il documentato cambio di soggetto, questa cimasa sembra avere un'atmosfera e un carattere molto diverso dalla tavola principale, che raffigura una sacra conversazione in un arioso ambiente architettonico, con i santi patroni della città Ercolano, Costanzo, Lorenzo e Ludovico di Tolosa intorno alla Madonna in trono col Bambino. Il fondo nero e i toni scuri del sarcofago e del rosso del perizoma creano nella Pietà un contrasto che fa risaltare la morbidezza e dolcezza dell'immagine di Cristo, dove l'umanità del divino è offerta in tutta la sua fragilità.</p>
+		</body>
+	</text>
+</TEI>

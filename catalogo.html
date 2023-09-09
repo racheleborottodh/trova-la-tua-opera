@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<title>Trova la tua opera</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="stile.css"/>
+	</head>
+	<body>
+		<div class="topnav"> 
+			<a href="#" class= "nome-sito" title="Trova la tua opera">Trova la tua opera</a>
+			<a href="index.html" class="bottone" title="Vai alla Home">Home</a>
+			<a href="#" class="bottone" title="Vai all'introduzione">Introduzione</a>
+			<a href="#" class="active">Catalogo</a>
+		</div>
+    <div class="row">
+      <div class="leftcolumn">
+        <div>
+          <ul class="breadcrumb">
+            <li><a href="index.html" title="Vai alla home">Home</a></li>
+            <li>Catalogo</li>
+          </ul>
+        </div>
+        <div>
+          <p class="filtra">Filtra</p>
+          <a href="#" class="btn" title="Dalla A alla Z">Dalla A alla Z</a>
+          <a href="#" class="btn" title="Dalla Z alla A">Dalla Z alla A</a>
+          <a href="#" class="btn" title="Per periodo">Per periodo</a>
+          <a href="#" class="btn" title="Per luogo">Per luogo</a>
+        </div>
+      </div>
+      <div class="rightcolumn">
+        <h2 class="titolo-catalogo">Tutti i Beni Mobili</h2>
+        <div class="tab">
+          <button
+            class="active"
+            id="defaultOpen"
+            onclick="openCity(event, 'tutti')">Tutti
+          </button>
+          <button
+            class="tablinks"
+            id="defaultOpen"
+            onclick="openCity(event, 'dipinti')">Dipinti
+          </button>
+          <button class="tablinks" onclick="openCity(event, 'sculture')">Sculture
+          </button>
+          <button class="tablinks" onclick="openCity(event, 'fotografie')">Fotografie
+          </button>
+            <button class="tablinks" onclick="openCity(event, 'disegni')">Disegni
+          </button>
+        </div>
+          <div class="row">
+            <div class="equalcolumn">
+              <div class="card">
+                <div><img src="img/items/botticelli.jpg"class="img-items"></div>
+                <div class="container">
+                  <h4><b>Madonna con bambino e angeli, Alessandro Botticelli</b></h4>
+                  <p><span>Anno di creazione:</span> 1487</p>
+                  <p><span>Oggetto:</span> Dipinto</p>
+                  <a href="#" class="btn" title="Vai all'opera">Scopri dov'è</a>
+                </div>
+              </div>
+            </div>
+          <div class="row">
+            <div class="equalcolumn">
+              <div class="card">
+                <div><img src="img/items/perugino.jpg"class="img-items"></div>
+                <div class="container">
+                  <h4><b>Cristo morto in pietà, Pietro Vannucci detto il Perugino</b></h4>
+                  <p><span>Anno di creazione:</span> 1495</p>
+                  <p><span>Oggetto: </span>Dipinto</p>
+                  <a href="item.html" class="btn" title="Vai all'opera">Scopri dov'è</a>
+                </div>
+              </div>
+            </div>
+          <div class="row">
+            <div class="equalcolumn">
+              <div class="card">
+                <div><img src="img/items/rodin.jpeg"class="img-items"></div>
+                <div class="container">
+                  <h4><b>Il bacio, Auguste Rodin</b></h4>
+                  <p><span>Anno di creazione:</span> 1888 - 1889</p>
+                  <p><span>Oggetto: </span>Scultura in marmo</p>
+                  <a href="#" class="btn" title="Vai all'opera">Scopri dov'è</a>
+                </div>
+              </div>
+            </div>
+          <div class="row">
+           	<div class="equalcolumn">
+              <div class="card">
+                <div><img src="img/items/vangogh.jpeg"class="img-items"></div>
+                <div class="container">
+                  <h4><b>Autoritratto con cappello grigio in feltro, Vincent Van Gogh</b></h4>
+                  <p><span>Anno di creazione:</span> 1887 - 1888</p>
+                  <p><span>Oggetto:</span> Dipinto</p>
+                  <a href="#" class="btn" title="Vai all'opera">Scopri dov'è</a>
+                </div>
+              </div>
+            </div>
+          <div class="row">
+           	<div class="equalcolumn">
+              <div class="card">
+                <div><img src="img/items/fanciulla.jpeg"class="img-items"></div>
+                <div class="container">
+                  <h4><b>Testa di fanciulla, Leonardo da Vinci</b></h4>
+                  <p><span>Anno di creazione:</span> 1500 - 10</p>
+                  <p><span>Oggetto:</span> Disegno su tavola</p>
+                  <a href="#" class="btn" title="Vai all'opera">Scopri dov'è</a>
+                </div>
+              </div>
+            </div>
+          <div class="row">
+            <div class="equalcolumn">
+              <div class="card">
+                <div><img src="img/items/manray.jpeg"class="img-items"></div>
+                <div class="container">
+                  <h4><b>Rayograph, Man Ray</b></h4>
+                  <p><span>Anno di creazione:</span> 1922</p>
+                  <p><span>Oggetto:</span> Fotografia</p>
+                  <a href="#" class="btn" title="Vai all'opera">Scopri dov'è</a>
+                </div>
+              </div>
+            </div>
+          <div>
+            <div class="pagination">
+              <a href="#" title="Indietro">&laquo;</a>
+              <a href="#" class="active" title="1">1</a>
+              <a href="#" title="2">2</a>
+              <a href="#" title="3">3</a>
+              <a href="#" title="4">4</a>
+              <a href="#" title="5">5</a>
+              <a href="#" title="6">6</a>
+              <a href="#" title="Avanti">&raquo;</a>
+            </div>
+          </div>
+        </div>
+ 		<div class= "crediti">
+			<p>Credits | Licenze</p>
+		</div>
+	</section>
+	<footer>
+		<p>&copy; Copyright Rachele Borotto Dalla Vecchia, 2023 - Corso di Digital Humanities e Patrimonio culturale</p>
+	</footer>
+  </body>
+</html>
+
